@@ -1,0 +1,121 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html, 
+body,
+#content{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgba(141, 138, 138, 0.8);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header p{
+    font-size: 1.6rem;
+    margin-right: 60px;
+}
+
+.tabs{
+    height: 64px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.tabs div{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 20px;
+    margin-top: 5px;
+    border-bottom: none;
+    padding: 20px 10px;
+    border-radius: 3px;
+}
+
+.tabs div:hover{
+    cursor: pointer;
+    filter: brightness(85%);
+}
+
+.info{
+    background-color: rgba(141, 138, 138, 0.4);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 250px;
+}
+
+.testimonial div{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hours{
+    border: 1px solid black; 
+    padding: 0 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.location{
+    border: 1px solid black; 
+    padding: 0 40px;
+}
+
+.location img{
+    width: 200px;
+}
+
+.menu,
+.contact{
+    height: 100%;
+}
+
+.menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+ 
+.menu-item{
+    border: 1px solid black;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    border: 1px solid black;
+}
+
+
+
