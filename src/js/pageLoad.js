@@ -112,7 +112,7 @@ function loadTestimonial(){
 
     testimonial.classList.add("testimonial");
 
-    text.innerText = 'I can believe burgers like this exits OMG! From the tender beef, fresh toppings and the world famous milkshakes. McDonalds just cannot compete...';
+    text.innerText = '"I can\'t believe burgers like this exits OMG! From the tender beef, fresh toppings and the world famous milkshakes. McDonald\'s just can\'t compete..."';
     quotee.innerText =  '- Ronald McDonald \uD83E\uDD21';
 
     testimonial.appendChild(text);
